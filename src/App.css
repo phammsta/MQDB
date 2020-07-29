@@ -7,14 +7,17 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid lightgray;
-  /* height: 332px; */
-  height: 400px;
+  height: 450px;
   width: 223px;
   margin-top: 20px;
   text-align: center;
 }
+.mvtitle{
+  color: white;
+  font-size: 18px;
+}
 .main{
-  background-color: black;
+  background-color: #111;
   height: 100%;
   min-height: 2130px;
 }
@@ -27,20 +30,21 @@
   z-index: 1;
   width: 100%;
   opacity: 70%;
+  color: white;
 }
 .slidetitle{
-  z-index: 1;
-  color: white;
+  color: black;
   font-weight: bolder;
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 15px;
 }
 .slidecaption{
-  z-index: 1;
-  color: white;
+  color: black;
   font-weight: normal;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 13px;
 }
 .slidebar{
   width: 100%;
@@ -48,7 +52,6 @@
   opacity: 70%;
 }
 .banner-fadeBottom {
-  
   height: 7.4rem;
   background-image: linear-gradient(
     180deg,
@@ -56,4 +59,35 @@
     rgba(37, 37, 37, 0.61),
     #111
   );
+}
+.navpad2{
+  margin-left: 190px;
+  }
+.navpad3{
+  margin-right: 200px;
+    }
+.morebtn{
+  margin-left:600px ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+}
+.ratingbtn{
+  margin-left:600px ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+}
+.popularitybtn{
+  margin-left:600px ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+}
+.subheading{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  text-align: center;
 }

@@ -20,8 +20,8 @@ export default function ControlledCarousel() {
                     />
                     <Carousel.Caption>
                         <div className="slidebar">
-                        <p className="slidetitle">I N T E R S T E L L A R</p>
-                        <p className="slidecaption">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p className="slidetitle">INTERSTELLAR</p>
+                        <p className="slidecaption">“Love is the one thing that transcends time and space.”</p>
                         </div>
                     </Carousel.Caption>
                     
@@ -34,8 +34,10 @@ export default function ControlledCarousel() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div className="slidebar">
+                        <p className="slidetitle">WHIPLASH</p>
+                        <p className="slidecaption">"Were you rushing; or were you dragging?"</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -46,8 +48,10 @@ export default function ControlledCarousel() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div className="slidebar">
+                        <p className="slidetitle">THE SOCIAL NETWORK</p>
+                        <p className="slidecaption">"A million dollars isn't cool. You know what's cool? A billion dollars."</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -58,8 +62,10 @@ export default function ControlledCarousel() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div className="slidebar">
+                        <p className="slidetitle">INCEPTION</p>
+                        <p className="slidecaption">"Do you want to take a leap of faith or become an old man filled with regret waiting to die alone?"</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -70,14 +76,17 @@ export default function ControlledCarousel() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div className="slidebar">
+                        <p className="slidetitle">THE IMITATION GAME</p>
+                        <p className="slidecaption">"Sometimes it's the very people who no one imagines anything of who do the things no one can imagine."</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
+                        
+
             </Carousel>
- 
-            <div className="banner-fadeBottom" />           
+ <div className="banner-fadeBottom" />   
 
         </div>
     )
