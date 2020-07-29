@@ -29,28 +29,25 @@
   position: fixed !important;
   z-index: 1;
   width: 100%;
-  opacity: 70%;
+
   color: white;
 }
 .slidetitle{
-  color: black;
+  color: lightgray;
   font-weight: bolder;
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 15px;
 }
 .slidecaption{
-  color: black;
+  color: lightgray;
   font-weight: normal;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 13px;
 }
-.slidebar{
-  width: 100%;
-  background-color: gray;
-  opacity: 70%;
-}
+
+
 .banner-fadeBottom {
   height: 7.4rem;
   background-image: linear-gradient(
