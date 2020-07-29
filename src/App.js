@@ -10,7 +10,7 @@ import { Button, Container, Row, Col, Navbar, Nav, Form, FormControl, NavDropdow
 
 let count = 1
 
-const apikey = `908a7d539329be6e6f4c2680b49b152d`
+const apikey = process.env.REACT_APP_API_KEY
 function App() {
   let [movieList, setMovieList] = useState(null)
   let [keyword, setKeyword] = useState("");
